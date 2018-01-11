@@ -1,0 +1,125 @@
+/*
+Available Colours
+#299DFF
+#25C3E8
+#36FFF0
+
+
+#25E8A2
+#29FF75
+
+
+*/
+
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab";
+
+body {
+    background-color: #36FFF0;
+    font-family: "Josefin Slab", "Times New Roman", Times, serif;
+}
+nav a {
+    color: black;
+    min-height: 100%;
+    padding-left: 1rem;
+    background-color: #299DFF;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    
+}
+li a.active{
+    color: #29FF75;
+}
+.row {
+    text-align: center;
+}
+
+sticky-top {}
+
+.jumbotron {
+    background-color: #25C3E8;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.nav-item {}
+
+.navbar-brand {}
+
+.card {
+    width: 100%;
+    border-radius: 1.5rem;
+    border-width: 3px;
+    border-style: outset;
+    box-shadow: 3px 2px #25E8A2;
+    background-color: #25C3E8;
+    margin: 1rem;
+}
+
+img.card-img-top {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom: 2px solid black;
+
+}
+button.navbar-toggler.collapsed {
+background-image:imageurl("../IMG/Menu.svg")}
+
+.img-fluid {
+    padding: 1rem;
+    border-width: 3px;
+    border-style: outset;
+    box-shadow: 3px 2px #25E8A2;
+    border-radius: 1.5rem;
+    background-color: #25C3E8;
+}
+.btn.btn-primary {
+    background-color: #299DFF;
+    color: black;
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+.card.contact {
+    margin: 1rem 10%;
+    max-width: 80%;
+}
+
+.card-text,
+.card-title {
+    text-align: left;
+}
+.card-title{
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;}
+.form-control {
+    background-color: #36FFF0;
+}
+.spacer{
+    padding-bottom: 20rem;
+}
+footer p{
+    display: inline;
+}
+nav{
+    background-color: #299DFF;
+    height: 4rem;
+    border: 1px solid black;
+}
+nav img{
+    float: right;
+    height: 3rem;
+    margin: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: #299DFF;
+}
+
+ul li.active{
+    color: #29FF75;
+}
+
+img.navbar-toggler-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: none;
+    padding: none;
+    min-height: 3rem;
+    width: auto;
+}
